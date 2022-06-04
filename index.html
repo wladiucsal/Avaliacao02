@@ -10,28 +10,57 @@
     <title>Avaliação 02 - ChatH</title>
 </head>
 <body>
-    <div class="container">
+    <div class="container-sm">
 
-    
-        <div class="row">
-            <div class="col-6 col-sm-4">
-                <img src="/assets/" alt="">
-            </div>
-            <div class="col-6 col-sm-4">
-                <img src="/assets/" alt="">
-            </div>
-
-            <div class="w-100 d-none d-md-block"></div>
+        <!-- Menu do Topo -->
+        <ul id="menu-topo" class="nav justify-content-center fixed-top row-12 row-sm-12">
+            <li class="nav-item col col-sm-6">
+                <a class="nav-link" href="">
+                    <i class="bi bi-arrow-90deg-left"></i>
+                </a>
+            </li>
+            <li class="nav-item col col-sm-6" align="right">
+                <a class="nav-link" href="">
+                    <i class="bi bi-gear-fill"></i>
+                </a>
+            </li>
+        </ul>
         
-            <div class="col-6 col-sm-4">
-                <img src="/assets/" alt="">
-            </div>
-            <div class="col-6 col-sm-4">
-                <img src="/assets/" alt="">
+        <!-- Textos do inicio -->
+        <div class="container-sm">
+            <div id="text-inicio" class="row row-sm-12 text-inicio">Início</div>
+            <div id="text-pubnova" class="row row-sm-12 text-pubnova">Publicação Nova</div>
+        </div>
+
+        <!-- Conteúdo/Publicações -->
+        <div class="publicacao row row-sm-12">
+            <img src="/assets/foto-pub.png" alt="">
+            <div class="perfil row row-sm-12">
+                <span>
+                    <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="/assets/foto-perfil.png">
+                    <a href="">Jhonatam</a>
+                    <i class="bi bi-check"></i>
+                </span>
             </div>
         </div>
         
-        <ul class="nav justify-content-center fixed-bottom row-12 row-sm-12">
+        <div class="publicacao row row-sm-12">
+            <video autoplay controls loop muted src="/assets/video.mp4"></video>
+            <div class="perfil row row-sm-12">
+                <span>
+                    <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="/assets/luva.jpg">
+                    <a href="">Luva de Pedreiro</a>
+                    <i class="bi bi-check"></i>
+                </span>
+            </div>
+        </div>
+
+        <div class="espaco">
+
+        </div>
+
+        <!-- Menu Fixo de baixo -->
+        <ul id="menu-fixo" class="nav justify-content-center fixed-bottom row-12 row-sm-12">
             <li class="nav-item">
                 <a class="nav-link" href="#">
                     <i class="bi bi-house-door"></i>
@@ -42,9 +71,9 @@
                     <i class="bi bi-search"></i>
                 </a>
             </li>
-            <li class="nav-item">
+            <li id="botao-mais" class="nav-item">
                 <a class="nav-link" href="#">
-                    <img src="/assets/button+.svg">
+                    <img src="/assets/botao+.png">
                 </a>
             </li>
             <li class="nav-item">

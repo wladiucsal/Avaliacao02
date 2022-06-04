@@ -1,11 +1,94 @@
 
-.principal {
-    padding-top: 30%;
-    width: 100%;
-    height: 100%;
-    
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* MENU */
+#menu-fixo {
+    background-color: #FFFFFF;
 }
 
-.principal img {
-    position: relative;
+#menu-fixo li {
+    margin-top: 1px;
+}
+
+#botao-mais img {
+    /* Depois alinhar o botão, sem mexer na estrutura UL */
+}
+
+#menu-topo {
+    background-color: #FFFFFF;
+}
+
+.nav-link {
+    color: black;
+}
+
+/* CONTEUDO */
+#text-inicio {
+    padding-top: 45px;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+#text-pubnova {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #000000;
+    padding-top: 24px;
+    padding-bottom: 10px;
+}
+
+.publicacao {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.144);
+}
+
+.publicacao video {
+    padding-top: 10px;
+}
+
+.publicacao span {
+    padding-top: 10px;
+}
+
+.perfil span i {
+    position: absolute;
+    padding-top: 12px;
+}
+
+.perfil img {
+    margin-top: 12px;
+    width: 28px;
+    height: 28px;
+}
+
+.perfil a {
+    margin-left: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    align-items: center;
+    color: #000000;
+    text-decoration: none;
+}
+
+.espaco {
+    height: 600px;
+    /* Mudar isso depois, apenas para dá um espaço e mostrar o layout completo */
 }
