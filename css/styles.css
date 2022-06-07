@@ -89,7 +89,7 @@
 }
 
 .espaco {
-    height: 600px;
+    height: 150px;
     /* Mudar isso depois, apenas para dá um espaço e mostrar o layout completo */
 }
 
@@ -103,4 +103,9 @@
 .botao_add i {
     color: #FFFFFF;
     padding-left: 11px;
+}
+
+.offcanvas {
+    max-width: 60%;
+    max-height: 40%;
 }

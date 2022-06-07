@@ -19,10 +19,43 @@
                     <i class="bi bi-arrow-90deg-left"></i>
                 </a>
             </li>
-            <li class="nav-item col col-sm-6" align="right">
-                <a class="nav-link" href="">
+            <li class="nav-item col col-sm-6" align="right">       
+                <a class="nav-link" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" >
                     <i class="bi bi-gear-fill"></i>
                 </a>
+                <div class="container-fluid">
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Configurações</h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <i class="bi bi-person-check"> Perfil</i> 
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <i class="bi bi-chat">  Chat</i> 
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <i class="bi bi-file-lock"> Privacidade</i>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <i class="bi bi-box-arrow-left"> Sair</i> 
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>        
+                    </div>
+                </div>
+                  
             </li>
         </ul>
         
@@ -34,12 +67,12 @@
 
         <!-- Conteúdo/Publicações -->
         <div class="publicacao row row-sm-12">
-            <img src="/assets/foto-pub.png" alt="">
+            <img src="/assets/zuck.jpg" alt="">
             <div class="perfil row row-sm-12">
                 <span>
-                    <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="/assets/foto-perfil.png">
-                    <a href="">Jhonatam</a>
-                    <i class="bi bi-check"></i>
+                    <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="/assets/perfil-zuck.jpg">
+                    <a href="">Mark Zuckerberg</a>
+                    <i class="bi bi-check" style="color: #0074cc"></i>
                 </span>
             </div>
         </div>
@@ -50,7 +83,29 @@
                 <span>
                     <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="/assets/luva.jpg">
                     <a href="">Luva de Pedreiro</a>
-                    <i class="bi bi-check"></i>
+                    <i class="bi bi-check" style="color: #0074cc"></i>
+                </span>
+            </div>
+        </div>
+
+        <div class="publicacao row row-sm-12">
+            <img src="/assets/ucsal.jpg" alt="">
+            <div class="perfil row row-sm-12">
+                <span>
+                    <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="/assets/perfil-ucsal.jpg">
+                    <a href="">UCSAL</a>
+                    <i class="bi bi-check" style="color: #0074cc"></i>
+                </span>
+            </div>
+        </div>    
+
+        <div class="publicacao row row-sm-12">
+            <video autoplay controls loop muted src="/assets/isadora.mp4"></video>
+            <div class="perfil row row-sm-12">
+                <span>
+                    <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="/assets/perfil-isadora.jpg">
+                    <a href="">Isadora</a>
+                    <i class="bi bi-check" style="color: #0074cc"></i>
                 </span>
             </div>
         </div>
@@ -89,5 +144,6 @@
         </ul>
 
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
