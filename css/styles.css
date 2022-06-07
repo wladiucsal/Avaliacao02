@@ -5,14 +5,14 @@
 /* MENU */
 #menu-fixo {
     background-color: #FFFFFF;
+    padding-top: 9px;
+    padding-bottom: 14px;
 }
 
 #menu-fixo li {
-    margin-top: 1px;
-}
-
-#botao-mais img {
-    /* Depois alinhar o botão, sem mexer na estrutura UL */
+    display: inline-flex;
+    padding-left: 3%;
+    padding-right: 2%;
 }
 
 #menu-topo {
@@ -91,4 +91,16 @@
 .espaco {
     height: 600px;
     /* Mudar isso depois, apenas para dá um espaço e mostrar o layout completo */
+}
+
+.botao_add {
+    height: 40px;
+    width: 70px;
+    background-image: linear-gradient(to bottom, #FF02D1, #FF4D00);
+    border-radius: 30px;
+}
+
+.botao_add i {
+    color: #FFFFFF;
+    padding-left: 11px;
 }
